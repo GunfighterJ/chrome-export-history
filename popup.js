@@ -40,6 +40,7 @@ var download = function(format){
         text = JSON.stringify(res[i]);
         if(i !== res.length-1) text = text + ',';
         append(text);
+        append("\n");
       }
       append("]");
     }
